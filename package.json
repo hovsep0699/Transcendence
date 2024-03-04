@@ -1,0 +1,33 @@
+{
+  "name": "42_ft_transendence",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"\"\"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamirjan/ft_transendence.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamirjan/ft_transendence/issues"
+  },
+  "homepage": "https://github.com/gamirjan/ft_transendence#readme",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-router-dom": "^6.10.0",
+    "typeorm": "^0.3.16"
+  }
+}
